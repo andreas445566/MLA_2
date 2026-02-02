@@ -1,0 +1,91 @@
+{
+    "Entities": [
+        {
+            "Id": "7c6f12eb-b914-465b-8a10-000000000000",
+            "GlobalType": "person",
+            "SourceSystemId": "Modifierad",
+            "Properties": [
+                {
+                    "GlobalType": "identification",
+                    "TypeId": "personE1",
+                    "Value": "123"
+                },
+                {
+                    "TypeId": "personE2",
+                    "Value": "Makr",
+                    "GlobalType": "first_name"
+                },
+                {
+                    "TypeId": "personE3",
+                    "Value": "ddd"
+                },
+                {
+                    "TypeId": "personE5",
+                    "Value": "M"
+                }
+            ],
+            "PosX": -124,
+            "PosY": -79,
+            "TypeId": "person"
+        },
+        {
+            "Id": "f5ae9e2d-b914-4622-b310-000000000000",
+            "GlobalType": "person",
+            "SourceSystemId": "Modifierad",
+            "Properties": [
+                {
+                    "GlobalType": "first_name",
+                    "TypeId": "personE2",
+                    "Value": "kalle"
+                },
+                {
+                    "TypeId": "personE5",
+                    "Value": "K"
+                }
+            ],
+            "PosX": -497,
+            "PosY": -79,
+            "TypeId": "person"
+        }
+    ],
+    "Links": [
+        {
+            "Id": "bef37f2d-b914-41e0-9320-000000000000",
+            "TypeId": "relation",
+            "SourceSystemId": "Egenskapad",
+            "FromEntityId": "f5ae9e2d-b914-4622-b310-000000000000",
+            "ToEntityId": "7c6f12eb-b914-465b-8a10-000000000000",
+            "Direction": "BOTH",
+            "Properties": [
+                {
+                    "TypeId": "relationslank",
+                    "Value": "test"
+                }
+            ]
+        },
+        {
+            "Id": "2b59403d-b91c-4e1c-a220-000000000000",
+            "TypeId": "relation",
+            "SourceSystemId": "Egenskapad",
+            "FromEntityId": "f5ae9e2d-b914-4622-b310-000000000000",
+            "FromEntityTypeId": "person",
+            "ToEntityId": "7c6f12eb-b914-465b-8a10-000000000000",
+            "ToEntityTypeId": "person",
+            "Direction": "BOTH",
+            "Properties": [
+                {
+                    "TypeId": "relationslank",
+                    "Value": "Utbetalning"
+                }
+            ]
+        }
+    ],
+    "Events": [],
+    "PhaseEvents": [],
+    "GeoFeatures": [],
+    "context": "",
+    "arendeID": "1234567",
+    "fornamn_efternamn": "Kalle Anka",
+    "p_nr": "999999-9999",
+    "auto_länk_av": true
+}
