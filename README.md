@@ -67,9 +67,16 @@ npm install -g staticrypt
 
 # Kryptera din HTML-fil
 staticrypt your-file.html -o index.html
+
+# Eller med specifikt salt för att behålla kompatibilitet
+staticrypt your-file.html -o index.html --salt ed97ea2ab845108aed982fbfbc0b1253
 ```
 
-**OBS:** Se till att använda samma salt som i `.staticrypt.json` om du vill behålla kompatibilitet.
+**OBS om salt-återanvändning:**
+- Använd samma salt om du vill att befintliga användare ska kunna använda sitt sparade lösenord
+- Salt-värdet behöver inte vara hemligt, det är designat att vara publikt
+- För bästa säkerhet vid ny kryptering: byt BÅDE lösenord och salt samtidigt
+- Detta kräver att alla användare får det nya lösenordet
 
 ## ⚡ Prestandaöverväganden
 

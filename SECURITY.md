@@ -54,7 +54,7 @@ Om lösenordet är:
 ## Vad kan INTE extraheras (What CANNOT be extracted)
 
 ❌ Själva lösenordet i klartext finns INTE i index.html
-❌ Det gå INTE att dekryptera innehållet utan rätt lösenord
+❌ Det går INTE att dekryptera innehållet utan rätt lösenord
 ❌ Salt-värdet ensamt hjälper INTE till att hitta lösenordet
 
 ---

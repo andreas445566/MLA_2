@@ -16,7 +16,6 @@ secrets.json
 # Temporary files
 *.tmp
 *.temp
-.DS_Store
 Thumbs.db
 
 # Editor directories and files
@@ -49,7 +48,6 @@ Desktop.ini
 # Backup files
 *.bak
 *.backup
-*~
 
 # Test files (if sensitive)
 test-data/
