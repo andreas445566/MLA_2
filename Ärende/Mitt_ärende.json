@@ -1,0 +1,81 @@
+{
+    "Entities": [
+        {
+            "Id": "7c6f12eb-b914-465b-8a10-000000000000",
+            "GlobalType": "person",
+            "SourceSystemId": "Modifierad",
+            "Properties": [
+                {
+                    "GlobalType": "identification",
+                    "TypeId": "personE1",
+                    "Value": "19010101-0101"
+                },
+                {
+                    "TypeId": "personE2",
+                    "Value": "Kalle",
+                    "GlobalType": "first_name"
+                },
+                {
+                    "TypeId": "personE3",
+                    "Value": "Anka"
+                },
+                {
+                    "TypeId": "personE5",
+                    "Value": "M"
+                }
+            ],
+            "PosX": -124,
+            "PosY": -79,
+            "TypeId": "person"
+        },
+        {
+            "Id": "f5ae9e2d-b914-4622-b310-000000000000",
+            "GlobalType": "person",
+            "SourceSystemId": "Modifierad",
+            "Properties": [
+                {
+                    "GlobalType": "first_name",
+                    "TypeId": "personE2",
+                    "Value": "Kajsa"
+                },
+                {
+                    "TypeId": "personE3",
+                    "Value": "Anka"
+                },
+                {
+                    "TypeId": "personE5",
+                    "Value": "K"
+                }
+            ],
+            "PosX": -497,
+            "PosY": -79,
+            "TypeId": "person"
+        }
+    ],
+    "Links": [
+        {
+            "Id": "2b59403d-b91c-4e1c-a220-000000000000",
+            "TypeId": "relation",
+            "SourceSystemId": "Egenskapad",
+            "FromEntityId": "f5ae9e2d-b914-4622-b310-000000000000",
+            "FromEntityTypeId": "person",
+            "ToEntityId": "7c6f12eb-b914-465b-8a10-000000000000",
+            "ToEntityTypeId": "person",
+            "Direction": "BOTH",
+            "Properties": [
+                {
+                    "TypeId": "relationslank",
+                    "Value": "Makar"
+                }
+            ]
+        }
+    ],
+    "Events": [],
+    "PhaseEvents": [],
+    "GeoFeatures": [],
+    "context": "",
+    "arendeID": "123456789",
+    "fornamn_efternamn": "Kalle Anka",
+    "p_nr": "19010101-0101",
+    "auto_länk_av": true
+}
